@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "title2": {
+      "type": "string"
+    },
+    "year": {
+      "type": "integer"
+    },
+    "month": {
+      "type": "integer"
+    },
+    "proj": {
+      "type": "string"
+    },
+    "core": {
+      "type": "string"
+    },
+    "dir": {
+      "type": "string"
+    },
+    "prod": {
+      "type": "string"
+    },
+    "dop": {
+      "type": "string"
+    },
+    "cg": {
+      "type": "text"
+    },
+    "role": {
+      "type": "string"
+    },
+    "task": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "tabs": {
+      "type": "component",
+      "component": "project-parts.tab",
+      "repeatable": true
+    },
+    "favorite": {
+      "type": "boolean",
+      "default": false
+    },
+    "about": {
+      "type": "text"
+    }
+  }
+}

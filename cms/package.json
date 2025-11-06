@@ -17,7 +17,7 @@
   "dependencies": {
     "@strapi/plugin-cloud": "5.29.0",
     "@strapi/plugin-users-permissions": "5.29.0",
-    "@strapi/provider-upload-cloudinary": "^5.30.0",
+    "@strapi/provider-upload-cloudinary": "^5.30.1",
     "@strapi/strapi": "5.29.0",
     "better-sqlite3": "11.3.0",
     "pg": "^8.16.3",
@@ -34,9 +34,8 @@
     "typescript": "^5"
   },
   "engines": {
-  "node": "18.x"
-}
-,
+    "node": "18.x"
+  },
   "strapi": {
     "uuid": "c6dc326d-01da-43be-a0b1-048017eb0f91",
     "installId": "028ba05fe3a048f2914af44461029cd08295c61b1fe4a970899bd41159d0ec00"
